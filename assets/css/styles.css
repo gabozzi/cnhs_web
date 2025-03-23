@@ -1,0 +1,326 @@
+Minimalist Styles
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+    /* max-height: 70px; */
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Buttons */
+.btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #232427;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3f4244;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Messages */
+.alert {
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.login-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.login-container .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.login-container .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-container .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.login-container .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-container .btn-primary {
+    background-color: #16181a;
+    border: none;
+}
+
+.login-container .btn-primary:hover {
+    background-color: #333638;
+}
+
+.login-container .text-center {
+    text-align: center;
+}
+
+.login-container .text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-container .text-center a:hover {
+    text-decoration: underline;
+}
+
+.login-container .alert {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.login-container .alert-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Register Page Styles */
+.register-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.register-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.register-container .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.register-container .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.register-container .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.register-container .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.register-container .btn-primary {
+    background-color:rgb(37, 38, 39);
+    border: none;
+}
+
+.register-container .btn-primary:hover {
+    background-color: #353638;
+}
+
+.register-container .text-center {
+    text-align: center;
+}
+
+.register-container .text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-container .text-center a:hover {
+    text-decoration: underline;
+}
+
+.register-container .alert {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.register-container .alert-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Custom CSS for the search bar and filter */
+.search-container {
+    display: flex;
+    gap: 0px; /* Space between search input and filter dropdown */
+    align-items: center;
+}
+
+.search-input {
+    flex: 1; /* Takes up remaining space */
+}
+
+.filter-select {
+    width: 160px; /* Adjust the width of the filter dropdown */
+}
+
+/* Custom CSS for error messages */
+.invalid-feedback {
+    display: none;
+    color: #dc3545; /* Red color for errors */
+    font-size: 0.875em; /* Smaller font size */
+    margin-top: 0.25rem; /* Space above the error message */
+}
+
+.is-invalid {
+    border-color: #dc3545 !important; /* Red border for invalid inputs */
+}
